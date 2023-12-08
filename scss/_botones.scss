@@ -1,0 +1,43 @@
+
+/*BOTONES INDEX*/
+.btnIndex {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    z-index: 1;
+    color: white;
+    background-color: rgb(49, 141, 80);
+    border: 3px white solid;
+}
+@media (min-width: 353px) and (max-width: 1000px) {
+    .btnIndex {
+        font-size: 0.5rem;
+        margin: 0px;
+        top: 60%;
+    }
+}
+.btnsIndex {
+    border: black 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+/*BOTONES CONTACTO*/
+.btnForm {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 2px;
+    padding: 10px;
+}

@@ -1,0 +1,116 @@
+/* textos */
+p {
+    font-family: "Roboto", sans-serif;
+}
+/*index*/
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 2px;
+    padding: 5px;
+    z-index: 1;
+    color: black;
+        
+}
+.h1Index {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    background-color: rgba(255, 255, 255, 0.466);
+    color: white;
+}
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+   
+    font-family: 'Roboto', sans-serif;
+    margin: 2px;
+    padding: 5px;  
+    z-index: 1;
+    color: black;
+}
+.h2Index {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    background-color: rgba(255, 255, 255, 0.466);
+    color: white;
+}
+
+
+
+@media (min-width: 353px) and (max-width: 1000px) {
+    .h1Index {
+        font-size: 1.4rem;
+        margin: 0px;
+        top: 10%;
+    }
+}
+@media (min-width: 353px) and (max-width: 1000px) {
+    .h2Index {
+        font-size: 1.2rem;
+        margin: 0px;
+        position: absolute;
+        top: 40%;
+        right: 5%;
+    }
+}
+
+
+.h1Paginas {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 2px;
+    padding: 5px;
+    z-index: 1;
+    color: black;
+}
+
+/* contacto */
+.h1Contacto {
+    text-transform: uppercase;
+    background-color: rgba(58, 56, 56, 0.466);
+    color: white;
+    font-size: 4rem;
+}
+@media (min-width: 353px) and (max-width: 1000px) {
+    .h1Contacto,.h2Contacto {
+        font-size: 1.4rem;
+    }
+    
+}
+.h2Contacto {
+    text-transform: uppercase;
+    background-color: rgba(58, 56, 56, 0.466);
+    color: white;
+    font-size: 2rem;
+}
+.h3Contacto {
+    text-transform: uppercase;
+    background-color: rgba(58, 56, 56, 0.466);
+    color: white;
+    font-size: 2rem;
+}
+
+.parrafoContacto {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: rgba(58, 56, 56, 0.466);
+    text-transform: uppercase;
+    text-decoration: blue;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+    .parrafoContacto {
+        font-size: 1rem;
+    }
+}

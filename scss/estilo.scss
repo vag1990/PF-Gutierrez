@@ -1,0 +1,154 @@
+
+
+@import "fuentes";
+@import "mixin";
+@import "header";
+@import "texto";
+@import "botones";
+
+
+/*LOGO REDES*/
+.imgRedes {
+    width: 50px;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+    .imgRedes {
+        align-self: self-end;
+        
+    }
+}
+/*LOGO FOOTER*/
+.imgLogoFooter {
+    width: 25%;
+}
+@media (min-width: 353px) and (max-width: 1000px) {
+    .imgLogoFooter {
+        width: 50%;
+    }
+}
+
+/*CAROUSEL INDEX*/
+.carouselIndex {
+    height: 1400px;
+}
+@media (min-width: 353px) and (max-width: 1000px) {
+    .carouselIndex {
+        height: 400px;
+    }
+}
+
+/*CONTENEDORES INDEX*/
+.contenedorIndexUno {
+    background-color: rgb(131, 154, 155);
+}
+.imgIndexBlends {
+    width: 600px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/*BLENDS HTML*/
+
+.grillaBlend {
+    background-color: white;
+}
+
+@media (max-width: 800px) {
+    .grillaBlend {
+        margin-top: 100px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 768px) {
+    .grillaBlend {
+        margin-top: 1px;
+    }
+}
+
+.textoBlends {
+    margin-top: 60px;
+    font-size: 0.8rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.textoBlendy {
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.imgMuestra {
+    width: 300px;
+    height: 300px;
+}
+
+.parrafoMuestra {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+/*PROYECTOS HTML*/
+
+.contenedorImgProyecto {
+    position: relative;
+    overflow: hidden;
+}
+
+.imgProyectos {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+}
+
+.contenedorImgProyecto:hover .imgProyectos {
+    filter: grayscale(100%);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: black;
+}
+
+.contenedorImgProyecto:hover .overlay {
+    opacity: 1;
+}
+
+
+
+/*CONTACTO*/
+
+.contactoForm {
+    width: 90%;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+@media (min-width: 353px) and (max-width: 1000px) {
+    .contactoForm {
+        width: 100%;
+        align-self: center;
+    }
+}
+
+.imgFondoContacto {
+    background-image: url(/img/img-cinco.jpg);
+    background-size: cover;
+}
+
