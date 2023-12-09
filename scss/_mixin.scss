@@ -2,32 +2,18 @@
 /* MIXIN */
 @mixin imgLogoPrincipal {
     width: 250px;
+    background-color: bisque
 }
 
 .imgLogo {
     @include imgLogoPrincipal;
     &:hover {
-        background-color: bisque;
-        transition: all 1s;
+        background-image: url(../img/imgLogoFondo.png);
+        background-size: cover;
+        transition: all 3s;
     }
 }
 
-@mixin botonesIndex {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    border: black solid 3px;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 10px;
-}
 
-.btnIndex {
-    @include botonesIndex;
-    &:hover {
-        background-color: rgb(148, 236, 66);
-        transition: all 1s;
-    }
-}
 
 

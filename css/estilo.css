@@ -4,24 +4,12 @@
 /* MIXIN */
 .imgLogo {
   width: 250px;
+  background-color: bisque;
 }
 .imgLogo:hover {
-  background-color: bisque;
-  transition: all 1s;
-}
-
-.btnIndex {
-  background-color: white;
-  color: black;
-  border-radius: 10px;
-  border: black solid 3px;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 10px;
-}
-.btnIndex:hover {
-  background-color: rgb(148, 236, 66);
-  transition: all 1s;
+  background-image: url(../img/imgLogoFondo.png);
+  background-size: cover;
+  transition: all 3s;
 }
 
 /*HEADER*/
@@ -70,8 +58,8 @@ h1 {
   flex-direction: column;
   text-transform: uppercase;
   position: absolute;
-  top: 20%;
-  right: 5%;
+  font-size: 13rem;
+  top: 5%;
   background-color: rgba(255, 255, 255, 0.466);
   color: white;
 }
@@ -90,16 +78,17 @@ h2 {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
+  font-size: 12rem;
   position: absolute;
-  top: 35%;
-  right: 5%;
+  top: 50%;
+  right: 1px;
   background-color: rgba(255, 255, 255, 0.466);
   color: white;
 }
 
 @media (min-width: 353px) and (max-width: 1000px) {
   .h1Index {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin: 0px;
     top: 10%;
   }
@@ -112,7 +101,7 @@ h2 {
     font-size: 1.2rem;
     margin: 0px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     right: 5%;
   }
 }
@@ -196,11 +185,12 @@ h2 {
 }
 .btnsIndex {
   border: black 2px solid;
-  padding: 5px;
+  padding: 20px;
   border-radius: 10px;
   color: black;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /*BOTONES CONTACTO*/
@@ -215,7 +205,7 @@ h2 {
 
 /*LOGO REDES*/
 .imgRedes {
-  width: 50px;
+  width: 25px;
 }
 
 @media (min-width: 500px) and (max-width: 1000px) {
@@ -245,7 +235,7 @@ h2 {
 }
 /*CONTENEDORES INDEX*/
 .contenedorIndexUno {
-  background-color: rgb(131, 154, 155);
+  background-color: azure;
 }
 
 .imgIndexBlends {
