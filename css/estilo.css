@@ -230,7 +230,7 @@ h2 {
 
 @media (min-width: 353px) and (max-width: 1000px) {
   .carouselIndex {
-    height: 400px;
+    height: 200px;
   }
 }
 /*CONTENEDORES INDEX*/
@@ -240,6 +240,11 @@ h2 {
 
 .imgIndexBlends {
   width: 600px;
+  height: auto;
+}
+
+.imgIndexBlends1 {
+  width: 85%;
   height: auto;
 }
 
@@ -331,7 +336,7 @@ h2 {
   }
 }
 .imgFondoContacto {
-  background-image: url(/img/img-cinco.jpg);
+  background-image: url(../img/img-cinco.jpg);
   background-size: cover;
 }
 
