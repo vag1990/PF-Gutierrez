@@ -40,7 +40,15 @@
 }
 
 /*CONTENEDORES INDEX*/
+.imgIndex {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+}
 
+.contenedorImgIndex:hover .imgIndex {
+    filter: grayscale(100%);
+}
 
 .imgIndexBlends {
     width: 600px;
@@ -130,6 +138,7 @@
     opacity: 0;
     transition: opacity 0.3s;
     color: black;
+    z-index: 10;
 }
 
 .contenedorImgProyecto:hover .overlay {

@@ -4,7 +4,6 @@
 /* MIXIN */
 .imgLogo {
   width: 250px;
-  background-color: bisque;
 }
 .imgLogo:hover {
   background-image: url(../img/imgLogoFondo.png);
@@ -20,21 +19,22 @@
 .nav-item {
   font-size: 1rem;
   color: black;
+  font-family: "Roboto", sans-serif;
 }
 .nav-item:hover {
-  text-transform: uppercase;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media (min-width: 992px) {
   .nav-item:hover {
-    background-color: bisque;
-    font-size: 1.5rem;
     transition: all 2s;
   }
 }
 a {
   font-family: "Roboto", sans-serif;
+  color: black;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* textos */
@@ -238,6 +238,16 @@ h2 {
   }
 }
 /*CONTENEDORES INDEX*/
+.imgIndex {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s;
+}
+
+.contenedorImgIndex:hover .imgIndex {
+  filter: grayscale(100%);
+}
+
 .imgIndexBlends {
   width: 600px;
   height: auto;
@@ -322,6 +332,7 @@ h2 {
   opacity: 0;
   transition: opacity 0.3s;
   color: black;
+  z-index: 10;
 }
 
 .contenedorImgProyecto:hover .overlay {
