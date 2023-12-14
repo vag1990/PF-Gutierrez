@@ -40,6 +40,11 @@
 }
 
 /*CONTENEDORES INDEX*/
+
+.contenedorImgIndex {
+    position: relative;
+    overflow: hidden;
+}
 .imgIndex {
     width: 100%;
     height: auto;
@@ -50,6 +55,23 @@
     filter: grayscale(100%);
 }
 
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: black;
+    z-index: 10;
+}
+.contenedorImgIndex:hover .overlay {
+    opacity: 1;
+}
 .imgIndexBlends {
     width: 600px;
     height: auto;
@@ -62,6 +84,17 @@
 
 .imgProyectoIndex {
     width: 1000px;
+}
+
+.linksIndex {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+     &:hover {
+      border: black solid 2px;
+      padding: 15px;
+       
+    }
 }
 
 /*BLENDS HTML*/
