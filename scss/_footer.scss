@@ -1,0 +1,10 @@
+/*LOGO FOOTER*/
+.imgLogoFooter {
+    width: 25%;
+}
+
+@media (min-width: 353px) and (max-width: 1000px) {
+    .imgLogoFooter {
+        width: 50%;
+    }
+}

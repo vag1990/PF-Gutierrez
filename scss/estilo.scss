@@ -3,6 +3,8 @@
 @import "header";
 @import "texto";
 @import "botones";
+@import "footer";
+
 
 
 /*LOGO REDES*/
@@ -17,16 +19,7 @@
     }
 }
 
-/*LOGO FOOTER*/
-.imgLogoFooter {
-    width: 25%;
-}
 
-@media (min-width: 353px) and (max-width: 1000px) {
-    .imgLogoFooter {
-        width: 50%;
-    }
-}
 
 /*CAROUSEL INDEX*/
 .carouselIndex {
