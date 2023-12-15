@@ -406,4 +406,16 @@ li {
   background-size: cover;
 }
 
+.videoMantenimiento {
+  width: 900;
+  height: 500;
+}
+
+@media (min-width: 353px) and (max-width: 1000px) {
+  .videoMantenimiento {
+    width: 250px;
+    height: 150px;
+  }
+}
+
 /*# sourceMappingURL=estilo.css.map */
