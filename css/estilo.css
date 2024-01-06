@@ -2,18 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* MIXIN */
-.imgLogo {
-  width: 250px;
-}
-.imgLogo:hover {
-  background-image: url(../img/imgLogoFondo.png);
-  background-size: cover;
-  transition: all 1s;
-}
-
 /*HEADER*/
 .imgLogo {
-  width: 250px;
+  width: 170px;
 }
 
 .nav-item {

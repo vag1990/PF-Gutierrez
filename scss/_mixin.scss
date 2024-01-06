@@ -5,15 +5,5 @@
     
 }
 
-.imgLogo {
-    @include imgLogoPrincipal;
-    &:hover {
-        background-image: url(../img/imgLogoFondo.png);
-        background-size: cover;
-        transition: all 1s;
-        
-    }
-}
-
 
 
