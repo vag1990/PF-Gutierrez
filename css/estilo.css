@@ -205,12 +205,13 @@ li {
 
 /*BOTONES CONTACTO*/
 .btnForm {
-  background-color: white;
-  color: black;
+  background-color: rgb(0, 89, 255);
+  color: white;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  margin: 2px;
+  margin: 10px;
   padding: 10px;
+  width: 25%;
 }
 
 /*LOGO FOOTER*/
@@ -384,6 +385,12 @@ li {
   width: 90%;
   color: black;
   background-color: rgba(128, 128, 128, 0.541);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 @media (min-width: 353px) and (max-width: 1000px) {
@@ -392,6 +399,18 @@ li {
     align-self: center;
   }
 }
+.labelForm {
+  margin-top: 10px;
+}
+
+.inputForm {
+  margin-top: 10px;
+}
+
+.textForm {
+  height: 250px;
+}
+
 .imgFondoContacto {
   background-image: url(../img/img-cinco.jpg);
   background-size: cover;

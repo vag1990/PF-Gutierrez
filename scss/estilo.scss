@@ -179,6 +179,12 @@
     width: 90%;
     color: black;
     background-color: rgba(128, 128, 128, 0.541);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 @media (min-width: 353px) and (max-width: 1000px) {
@@ -186,6 +192,16 @@
         width: 100%;
         align-self: center;
     }
+}
+
+.labelForm {
+    margin-top: 10px;
+}
+.inputForm {
+    margin-top: 10px;
+}
+.textForm {
+    height: 250px;
 }
 
 .imgFondoContacto {
