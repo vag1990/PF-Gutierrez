@@ -171,6 +171,15 @@ li {
   font-family: "Roboto", sans-serif;
 }
 
+.textoMantenimiento {
+  font-family: "Roboto", sans-serif;
+}
+
+.textColor {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
 /*BOTONES INDEX*/
 .btnIndex {
   font-size: 2rem;
@@ -376,7 +385,7 @@ li {
   font-size: 1.5rem;
   opacity: 0;
   transition: opacity 0.3s;
-  color: black;
+  color: rgb(0, 0, 0);
   z-index: 10;
 }
 
