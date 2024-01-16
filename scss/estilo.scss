@@ -84,8 +84,7 @@
     font-weight: bold;
     color: white;
      &:hover {
-      border: black solid 2px;
-      padding: 15px;
+      
        
     }
 }
@@ -165,7 +164,12 @@
     transition: opacity 0.3s;
     color: rgb(0, 0, 0);
     z-index: 10;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
 }
+
+
 
 .contenedorImgProyecto:hover .overlay {
     opacity: 1;
@@ -212,4 +216,9 @@
 .videoMantenimiento {
     width: 90%;
     height: 400px;
+}
+
+.imgMante {
+    height: 700px;
+    width: auto;
 }
